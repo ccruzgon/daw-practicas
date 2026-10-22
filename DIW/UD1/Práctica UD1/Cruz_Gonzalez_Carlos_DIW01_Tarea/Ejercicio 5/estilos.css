@@ -1,0 +1,164 @@
+/*
+Letra para todo el documento
+*/
+* {
+    font-family: arial;
+}
+
+/*
+display flex: coloca los elementos en fila
+align-items: centro los elementos verticalente
+gap: deja 12px entre cada elemento
+background-color: color de fondo
+border: bode de 1px negro
+*/
+.encabezado {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: #688AB0;
+    border: 1px solid #000000;
+}
+
+
+/*
+Elimino espacio exterior del nombre que están dentro del encabezado
+*/
+.encabezado h1 {
+    margin: 0;
+}
+
+/*
+display-flex: organiza elementos en una fila
+height: establece 40px de altura
+*/
+.menu {
+    display: flex;    
+    height: 40px;
+    background-color: #7DBCDF;
+    border: 1px solid #000000;
+}
+/*
+Los strong se reparten el espacio disponible por igual s
+*/
+.menu strong {
+    flex: 1;    
+}
+
+/*
+display flex: convierto enlaces a elementos sueltos para moverlos
+hight: indica que los elementos ocupen toda la altura de su contenedor
+align-items: centro el contenido verticalmente
+justify-content: centra el contenido horizontalmente
+padding: deja espacio inferior, 0px arriba y abajo. 20 arriba y a la derecha
+font-size: tamaño de letra
+text-align: centra el texto
+text-decoration: quita el subrayado de los enlaces
+*/
+.menu a {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.contenido {
+    background-color: #F7F8FC;
+}
+
+/*
+grid: convierte la sección con el contenido en una cuadricula
+grid-template-columns: crea 3 columnas iguales
+gap: deja espacio entre ellas
+*/
+main section {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    row-gap: 10px;
+    padding: 20px;
+    border: 1px solid #000000;
+}
+
+/*
+Selecciono el h2 dentro de section, le indico que ocupe todas las columnas de la primera fila
+desde la primera (1) hasta la última (-1)
+Quito espacios en blanco, y lo ajusto al margen izquierdo
+Le disminuyo el tamaño de letra para que no ocupe tanto
+*/
+main section > h2 {
+    grid-column: 1 / -1;
+    padding: 0px;
+    margin: 0;
+    text-align: left;
+    font-size: 20px; 
+}
+
+/*
+flex: permite organiza los elementos internos
+flex-direction: organiza los elementos en columna
+gap: deja 12px entre cada elemento
+*/
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    border: 1px solid #7DBCDF;
+    
+}
+
+/*
+Para los encabezados de los articulos, 
+alineo el texto al centro
+establezco la altura para la caja del titulo
+y elimino espacio exteriors
+*/
+article h3 {
+    text-align: center;
+    min-height: 10px;
+    margin: 0;    
+}
+
+/*
+flex: permite organiza los elementos internos
+align-items: centra los elementos verticalmente
+justify-content: centra los elementos horizontalmente
+margin-top: auto: empuja el enlace hacia abajo
+*/
+article a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+}
+
+footer {
+    display: flex;    
+    gap: 12px;
+    background-color: #D1DBE5;
+    border: 1px solid #000000;
+}
+
+/*
+hace referencia a las imagenes que están dentro del footer y que no tienen la clase avatar
+*/
+footer img:not(.avatar) {
+    width: 30px;
+    height: 30px;
+    margin-top:60px; 
+}
+
+.avatar {
+    width: 100px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--Carlos Cruz González-->
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //Variables para los datos introducidos por el usuario
+        let num1, num2;
+        //Variables para realizar la división
+        let resto, operacion;        
+        //Variable boolean para manejar la condición de salida del bucle
+        let esNumValido = false;
+
+        //Hago un do-while para ejecutar al menos una primera vez el bucle y después ir comprobando la condición de salida
+        do {
+            //Pido el primer número100
+
+            num1 = parseInt(prompt("introduce el primer valor"));
+            //Valido que cumpla la condición
+            if (num1 >= 100 && num1 <= 1000) {
+                //Si la cumple, pido el segundo número
+                num2 = parseInt(prompt("introduce el segundo valor"));
+                //Si es válido, ambos números cumplen las condiciones asi que modifico la variable de salida a true para salir del bucle
+                if (num2 > 0 && num2 < 100) esNumValido = true;
+            }
+            //mientras que la variable de salida sea false, el bucle se repite
+        } while (!esNumValido)     
+
+        
+        do {
+            operacion = num1 / num2;           
+            resto = num1 % num2;            
+            document.write("División de " + parseInt(num1) + " / " + parseInt(num2)+ " = " + parseInt(operacion) + "<br>");
+            document.write("resto = " + resto+ "<br>");
+            num1 = operacion;
+
+        } while(parseInt(operacion) !== 0)
+                
+
+    </script>
+
+</body>
+
+</html>

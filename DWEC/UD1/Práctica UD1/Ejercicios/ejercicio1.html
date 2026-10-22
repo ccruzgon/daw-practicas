@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--Carlos Cruz González-->
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //Creación de variables
+        let nombre, genero;       
+
+        //Pido nombre por pantalla
+        nombre = prompt("introduce un nombre:");
+
+        //Si el nombre no es un un número, valido y entro
+        if (isNaN(nombre)) {
+            //Una vez valido el nombre, pido el género
+            genero = prompt("introduce un género");
+
+            //Si el genero no es "hombre", "mujer" u "otro", muestro un error por pantalla
+            if (genero != "hombre" && genero != "mujer" && genero != "otros") {
+                document.write("Género Incorrecto")
+            } else {
+                //Si pasa la validación, muestro el mensaje final con el nombre
+                document.write("Hola, " + nombre + " eres " + genero + ".");
+            }
+            //Si el nombre es un número o es null, muestro el mensaje por pantalla
+        } else document.write("El nombre no es válido")
+    </script>
+</body>
+
+</html>

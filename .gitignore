@@ -1,0 +1,24 @@
+# Ignorar todo lo que hay en la carpeta principal
+/*
+
+# Incluir estas cuatro asignaturas
+!/DAW/
+!/DIW/
+!/DWEC/
+!/DWES/
+
+# Incluir los archivos de presentación y configuración
+!/.gitignore
+!/README.md
+
+# Excluir las carpetas de teoría en cualquier unidad
+**/[Tt]eoría/
+**/[Tt]eoria/
+
+# Excluir dependencias y configuraciones locales
+node_modules/
+vendor/
+**/nbproject/private/
+.env
+.env.*
+!.env.example

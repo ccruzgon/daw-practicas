@@ -1,0 +1,379 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="mTCd-LjAfYCZDMFgEJ2y" name="Diagrama_Carlos Cruz">
+    <mxGraphModel dx="4040" dy="1713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-3" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F0F6FD;strokeColor=#BED1E5;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1730" width="350" x="-30" y="165.00002441406252" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-4" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-3" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=23;fontColor=#24374B;fontStyle=1;spacing=0;" value="NAVEGADOR" vertex="1">
+          <mxGeometry height="34" width="310" x="20" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-107" parent="5QfnipIm1RK7H5KKdkK9-3" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=light-dark(#FFFFFF,#3C82FF);" value="&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Verdana&quot;&gt;&lt;b style=&quot;&quot;&gt;¿Qué hace el navegador?&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot; face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; face=&quot;Verdana&quot;&gt;En el navegador el usuario rellena el formulario y lo envia mediante una petición HTTP POST a ej3/guardar.php&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; face=&quot;Verdana&quot;&gt;En caso de de algún tipo de error, se muestra el formulario de nuevo con los campos erronéos en blanco para volver a rellenarlos, y los válidos ya rellenados&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="434.5" width="310" x="20" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-7" parent="5QfnipIm1RK7H5KKdkK9-3" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#E0ECFA;strokeColor=#668DBA;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="135" width="310" x="20" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-8" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-7" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=21;fontColor=#24374B;fontStyle=1;spacing=0;" value="Rellenar y enviar" vertex="1">
+          <mxGeometry height="34" width="270" x="20" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-9" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-7" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=17;fontColor=#24374B;fontStyle=0;spacing=0;" value="Formulario: ej3/index.php" vertex="1">
+          <mxGeometry height="26" width="270" x="20" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-10" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-7" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=17;fontColor=#24374B;fontStyle=0;spacing=0;" value="Botón «Registrar la visita»." vertex="1">
+          <mxGeometry height="26" width="270" x="20" y="83" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-76" parent="5QfnipIm1RK7H5KKdkK9-3" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FCEAE8;strokeColor=#C96F65;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="150" width="310" x="10" y="1439" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-77" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-76" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=20;fontColor=#24374B;fontStyle=1;spacing=0;" value="Mostrar los errores" vertex="1">
+          <mxGeometry height="34" width="270" x="20" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-78" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-76" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=18;fontColor=#24374B;fontStyle=0;spacing=0;" value="El navegador recibe el HTML" vertex="1">
+          <mxGeometry height="27" width="270" x="20" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-79" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-76" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=18;fontColor=#24374B;fontStyle=0;spacing=0;" value="y muestra el formulario." vertex="1">
+          <mxGeometry height="27" width="270" x="20" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-80" parent="5QfnipIm1RK7H5KKdkK9-3" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#E5F4EB;strokeColor=#61A27E;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="110" width="310" x="10" y="1605" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-81" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-80" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=19;fontColor=#24374B;fontStyle=1;spacing=0;" value="Mostrar la confirmación" vertex="1">
+          <mxGeometry height="34" width="270" x="20" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-82" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-80" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=17;fontColor=#24374B;fontStyle=0;spacing=0;" value="Visita concertada y recuento." vertex="1">
+          <mxGeometry height="26" width="270" x="20" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-5" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F5F8FA;strokeColor=#C7D3DE;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="1730" width="2120" x="340" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-6" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-5" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=23;fontColor=#24374B;fontStyle=1;spacing=0;" value="SERVIDOR" vertex="1">
+          <mxGeometry height="34" width="2071.2643678160916" x="24.367816091954023" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-104" parent="5QfnipIm1RK7H5KKdkK9-5" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=15;fontColor=#38815D;fontStyle=1;spacing=0;" value="Respuesta HTTP · HTML" vertex="1">
+          <mxGeometry height="32" width="548.2758620689655" x="90.16091954022987" y="1675" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-115" parent="5QfnipIm1RK7H5KKdkK9-5" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=light-dark(#FFFFFF,#3C82FF);" value="&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Verdana&quot;&gt;&lt;b style=&quot;&quot;&gt;¿Qué hace el servidor?&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot; face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; face=&quot;Verdana&quot;&gt;El servidor recibe los datos, detecta que hay código PHP, asi que lo deriva al motor de PHP.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; face=&quot;Verdana&quot;&gt;PHP recibe los datos, los valida y guarda la visita si son correctos.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; face=&quot;Verdana&quot;&gt;Finalmente, genera una respuesta HTTP con HTML incluyendo la confirmación si todo está correcto, o mostrando el formulario de nuevo si este tiene errores, para que el usuario pueda subsanarlos.&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="565" width="355.63" x="1740" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-105" parent="5QfnipIm1RK7H5KKdkK9-5" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=18;fontColor=#B95850;fontStyle=1;spacing=0;" value="Cada fallo se añade al array $errores." vertex="1">
+          <mxGeometry height="35" width="659.3301435406698" x="60.86124401913875" y="755.0000244140625" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-11" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#E7EFF6;strokeColor=#6C8AA7;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="105" width="650" x="400" y="230.00002441406252" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-12" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-11" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=21;fontColor=#24374B;fontStyle=1;spacing=0;" value="1. Recibir los campos" vertex="1">
+          <mxGeometry height="34" width="610" x="20" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-13" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-11" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=20;fontColor=#24374B;fontStyle=0;spacing=0;" value="ej3/guardar.php recibe el POST en $_POST." vertex="1">
+          <mxGeometry height="29" width="610" x="20" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-14" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#91A8BD;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="115" width="650" x="400" y="385.0000244140625" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-15" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-14" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=21;fontColor=#24374B;fontStyle=1;spacing=0;" value="2. Leer las visitas existentes" vertex="1">
+          <mxGeometry height="34" width="610" x="20" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-16" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-14" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=20;fontColor=#24374B;fontStyle=0;spacing=0;" value="datos/visitas.csv → array de visitas." vertex="1">
+          <mxGeometry height="29" width="610" x="20" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-17" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#EEF2F6;strokeColor=#91A8BD;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="155" width="870" x="1160" y="370.0000244140625" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-18" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-17" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=20;fontColor=#24374B;fontStyle=1;spacing=0;" value="Funciones de lectura" vertex="1">
+          <mxGeometry height="34" width="830" x="20" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-19" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-17" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=18;fontColor=#24374B;fontStyle=0;spacing=0;" value="cargarVisitasCarlosCruzGonzalez() - funciones/visitas.php" vertex="1">
+          <mxGeometry height="27" width="830" x="20" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-20" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-17" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=18;fontColor=#24374B;fontStyle=0;spacing=0;" value="Utiliza cargarCSV() - funciones/_cargadatos.php." vertex="1">
+          <mxGeometry height="27" width="830" x="20" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-21" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-17" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=18;fontColor=#24374B;fontStyle=0;spacing=0;" value="El CSV se lee y se conservan las visitas válidas." vertex="1">
+          <mxGeometry height="27" width="830" x="20" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-22" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#91A8BD;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="130" width="650" x="400" y="555.0000244140625" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-23" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-22" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=21;fontColor=#24374B;fontStyle=1;spacing=0;" value="3. Quitar espacios" vertex="1">
+          <mxGeometry height="34" width="610" x="20" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-24" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-22" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=19;fontColor=#24374B;fontStyle=0;spacing=0;" value="Aplicar trim() a los extremos de cada cadena." vertex="1">
+          <mxGeometry height="28" width="610" x="20" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-25" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-22" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=19;fontColor=#24374B;fontStyle=0;spacing=0;" value="$_POST → datos recibidos sin espacios sobrantes." vertex="1">
+          <mxGeometry height="28" width="610" x="20" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-26" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#91A8BD;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="130" width="650" x="400" y="750.0000244140625" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-27" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-26" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=21;fontColor=#24374B;fontStyle=1;spacing=0;" value="4. Validar los campos" vertex="1">
+          <mxGeometry height="34" width="610" x="20" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-28" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-26" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=20;fontColor=#24374B;fontStyle=0;spacing=0;" value="Comprobar residente, vínculo, solicitante," vertex="1">
+          <mxGeometry height="29" width="610" x="20" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-29" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-26" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=20;fontColor=#24374B;fontStyle=0;spacing=0;" value="fecha, horas y observaciones." vertex="1">
+          <mxGeometry height="29" width="610" x="20" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-30" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#EEF2F6;strokeColor=#91A8BD;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="265" width="870" x="1160" y="685.0000244140625" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-31" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-30" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=20;fontColor=#24374B;fontStyle=1;spacing=0;" value="Funciones de validación" vertex="1">
+          <mxGeometry height="34" width="830" x="20" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-32" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-30" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=18;fontColor=#24374B;fontStyle=0;spacing=0;" value="funciones/validaciones.php:" vertex="1">
+          <mxGeometry height="27" width="830" x="20" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-33" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-30" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=18;fontColor=#24374B;fontStyle=0;spacing=0;" value="esFechaValidaCarlosCruzGonzalez()" vertex="1">
+          <mxGeometry height="27" width="830" x="20" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-34" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-30" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=18;fontColor=#24374B;fontStyle=0;spacing=0;" value="esHoraValidaCarlosCruzGonzalez()" vertex="1">
+          <mxGeometry height="27" width="830" x="20" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-35" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-30" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=18;fontColor=#24374B;fontStyle=0;spacing=0;" value="funciones/otrasFunciones.php:" vertex="1">
+          <mxGeometry height="27" width="830" x="20" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-36" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-30" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=18;fontColor=#24374B;fontStyle=0;spacing=0;" value="quitarResidentesRepetidos() y separarHorayMin()" vertex="1">
+          <mxGeometry height="27" width="830" x="20" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-37" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-30" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=18;fontColor=#24374B;fontStyle=0;spacing=0;" value="Vínculo, solicitante y observaciones se validan en guardar.php." vertex="1">
+          <mxGeometry height="27" width="830" x="20" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-38" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#91A8BD;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="135" width="650" x="400" y="1000.0000244140625" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-39" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-38" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=21;fontColor=#24374B;fontStyle=1;spacing=0;" value="5. Comprobar las horas de la visita" vertex="1">
+          <mxGeometry height="34" width="610" x="20" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-40" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-38" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=19;fontColor=#24374B;fontStyle=0;spacing=0;" value="Fin posterior, duración mínima y una sola franja." vertex="1">
+          <mxGeometry height="28" width="610" x="20" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-41" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-38" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=19;fontColor=#24374B;fontStyle=0;spacing=0;" value="Solo se comprueba con horas válidas." vertex="1">
+          <mxGeometry height="28" width="610" x="20" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-42" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#EEF2F6;strokeColor=#91A8BD;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="210" width="870" x="1160" y="990.0000244140625" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-43" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-42" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=20;fontColor=#24374B;fontStyle=1;spacing=0;" value="Funciones del intervalo" vertex="1">
+          <mxGeometry height="34" width="830" x="20" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-44" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-42" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=18;fontColor=#24374B;fontStyle=0;spacing=0;" value="horaFinEsPosterior() - funciones/otrasFunciones.php" vertex="1">
+          <mxGeometry height="27" width="830" x="20" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-45" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-42" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=18;fontColor=#24374B;fontStyle=0;spacing=0;" value="funciones/validaciones.php:" vertex="1">
+          <mxGeometry height="27" width="830" x="20" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-46" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-42" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=18;fontColor=#24374B;fontStyle=0;spacing=0;" value="estaEnUnaFranjaCarlosCruzGonzalez()" vertex="1">
+          <mxGeometry height="27" width="830" x="20" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-47" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-42" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=18;fontColor=#24374B;fontStyle=0;spacing=0;" value="esDuracionValidaCarlosCruzGonzalez()" vertex="1">
+          <mxGeometry height="27" width="830" x="20" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-48" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#91A8BD;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="135" width="650" x="400" y="1245.0000244140624" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-49" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-48" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=21;fontColor=#24374B;fontStyle=1;spacing=0;" value="6. Buscar solapamientos" vertex="1">
+          <mxGeometry height="34" width="610" x="20" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-50" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-48" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=18;fontColor=#24374B;fontStyle=0;spacing=0;" value="Comparar fecha y horas con las visitas del residente." vertex="1">
+          <mxGeometry height="27" width="610" x="20" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-51" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-48" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=18;fontColor=#24374B;fontStyle=0;spacing=0;" value="Solo con residente, fecha e intervalo válidos." vertex="1">
+          <mxGeometry height="27" width="610" x="20" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-52" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#EEF2F6;strokeColor=#91A8BD;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="155" width="870" x="1160" y="1255.0000244140624" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-53" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-52" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=20;fontColor=#24374B;fontStyle=1;spacing=0;" value="Funciones de solapamiento" vertex="1">
+          <mxGeometry height="34" width="830" x="20" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-54" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-52" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=18;fontColor=#24374B;fontStyle=0;spacing=0;" value="solapaConVisitasCarlosCruzGonzalez() - funciones/validaciones.php -  " vertex="1">
+          <mxGeometry height="27" width="830" x="20" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-55" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-52" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=18;fontColor=#24374B;fontStyle=0;spacing=0;" value="Utiliza filtrarVisitasCarlosCruzGonzalez() - funciones/filtradatos.php." vertex="1">
+          <mxGeometry height="27" width="830" x="20" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-57" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFF3CD;strokeColor=#B79B49;strokeWidth=2;shape=rhombus;" value="" vertex="1">
+          <mxGeometry height="90" width="280" x="585" y="1450.0000244140624" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-58" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-57" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=20;fontColor=#24374B;fontStyle=1;spacing=0;" value="¿Hay errores?" vertex="1">
+          <mxGeometry height="52" width="230" x="25" y="19" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-59" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FCEAE8;strokeColor=#C96F65;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="195" width="330" x="365" y="1605" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-60" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-59" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=19;fontColor=#24374B;fontStyle=1;spacing=0;" value="7A. Volver al formulario" vertex="1">
+          <mxGeometry height="44.2" width="290" x="20" y="16.9" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-61" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-59" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=17;fontColor=#24374B;fontStyle=0;spacing=0;" value="Incluir ej3/index.php." vertex="1">
+          <mxGeometry height="33.8" width="290" x="20" y="72.8" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-62" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-59" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=17;fontColor=#24374B;fontStyle=0;spacing=0;" value="$errores → mensajes HTML." vertex="1">
+          <mxGeometry height="33.8" width="290" x="20" y="106.59634831460674" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-63" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-59" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=17;fontColor=#24374B;fontStyle=0;spacing=0;" value="Datos recibidos correctos se reinyectan en elformulario." vertex="1">
+          <mxGeometry height="33.8" width="290" x="20" y="149.00196629213482" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-64" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#E5F4EB;strokeColor=#61A27E;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="150" width="355" x="760" y="1605.0000244140624" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-65" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-64" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=19;fontColor=#24374B;fontStyle=1;spacing=0;" value="7B. Guardar la visita" vertex="1">
+          <mxGeometry height="34" width="315" x="20" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-66" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-64" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=17;fontColor=#24374B;fontStyle=0;spacing=0;" value="$_POST → $datosCorrectos." vertex="1">
+          <mxGeometry height="26" width="315" x="20" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-67" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-64" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=17;fontColor=#24374B;fontStyle=0;spacing=0;" value="Array → nueva fila del CSV." vertex="1">
+          <mxGeometry height="26" width="315" x="20" y="83" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-68" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-64" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=17;fontColor=#24374B;fontStyle=0;spacing=0;" value="Generar la confirmación HTML." vertex="1">
+          <mxGeometry height="26" width="315" x="20" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-69" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#EEF2F6;strokeColor=#91A8BD;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="230" width="870" x="1160" y="1570.0000244140624" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-70" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-69" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=20;fontColor=#24374B;fontStyle=1;spacing=0;" value="Funciones del guardado y del recuento" vertex="1">
+          <mxGeometry height="34" width="830" x="20" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-71" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-69" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=18;fontColor=#24374B;fontStyle=0;spacing=0;" value="guardarVisitaCSV() - funciones/_guardardatos.php" vertex="1">
+          <mxGeometry height="27" width="830" x="20" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-72" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-69" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=18;fontColor=#24374B;fontStyle=0;spacing=0;" value="contarVisitasPorResidente() - funciones/otrasFunciones.php" vertex="1">
+          <mxGeometry height="27" width="830" x="20" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-73" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-69" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=18;fontColor=#24374B;fontStyle=0;spacing=0;" value="Se ordena $datosCorrectos para que tengan el orden de CABECERAS." vertex="1">
+          <mxGeometry height="27" width="830" x="20" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-74" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-69" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=18;fontColor=#24374B;fontStyle=0;spacing=0;" value="Si se guarda, el recuento anterior aumenta en uno." vertex="1">
+          <mxGeometry height="27" width="830" x="20" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-75" connectable="0" parent="5QfnipIm1RK7H5KKdkK9-69" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=18;fontColor=#24374B;fontStyle=0;spacing=0;" value="Si falla la escritura, se muestra un mensaje de fallo." vertex="1">
+          <mxGeometry height="27" width="830" x="20" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-83" edge="1" parent="1" source="5QfnipIm1RK7H5KKdkK9-7" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#416D9B;noEdgeStyle=1;exitX=1.0;exitY=0.37037037037037035;entryX=0.0;entryY=0.47619047619047616;exitPerimeter=0;entryPerimeter=0;" target="5QfnipIm1RK7H5KKdkK9-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="280.0000244140625" as="sourcePoint" />
+            <mxPoint x="400" y="280.0000244140625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-84" parent="1" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=15;fontColor=#416D9B;fontStyle=1;spacing=0;" value="HTTP POST" vertex="1">
+          <mxGeometry height="35" width="116" x="282" y="233.00002441406252" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-85" edge="1" parent="1" source="5QfnipIm1RK7H5KKdkK9-11" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#627B90;noEdgeStyle=1;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="5QfnipIm1RK7H5KKdkK9-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725" y="335.0000244140625" as="sourcePoint" />
+            <mxPoint x="725" y="385.0000244140625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-86" edge="1" parent="1" source="5QfnipIm1RK7H5KKdkK9-14" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#627B90;noEdgeStyle=1;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="5QfnipIm1RK7H5KKdkK9-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725" y="500.0000244140625" as="sourcePoint" />
+            <mxPoint x="725" y="555.0000244140625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-87" edge="1" parent="1" source="5QfnipIm1RK7H5KKdkK9-22" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#627B90;noEdgeStyle=1;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="5QfnipIm1RK7H5KKdkK9-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725" y="685.0000244140625" as="sourcePoint" />
+            <mxPoint x="725" y="750.0000244140625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-88" edge="1" parent="1" source="5QfnipIm1RK7H5KKdkK9-26" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#627B90;noEdgeStyle=1;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="5QfnipIm1RK7H5KKdkK9-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725" y="880.0000244140625" as="sourcePoint" />
+            <mxPoint x="725" y="1000.0000244140625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-89" edge="1" parent="1" source="5QfnipIm1RK7H5KKdkK9-38" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#627B90;noEdgeStyle=1;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="5QfnipIm1RK7H5KKdkK9-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725" y="1135.0000244140624" as="sourcePoint" />
+            <mxPoint x="725" y="1245.0000244140624" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-90" edge="1" parent="1" source="5QfnipIm1RK7H5KKdkK9-48" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#627B90;noEdgeStyle=1;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="5QfnipIm1RK7H5KKdkK9-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725" y="1380.0000244140624" as="sourcePoint" />
+            <mxPoint x="725" y="1450.0000244140624" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-91" edge="1" parent="1" source="5QfnipIm1RK7H5KKdkK9-14" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#91A8BD;noEdgeStyle=1;dashed=1;exitX=1.0;exitY=0.4782608695652174;entryX=0.0;entryY=0.45161290322580644;exitPerimeter=0;entryPerimeter=0;" target="5QfnipIm1RK7H5KKdkK9-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="440.0000244140625" as="sourcePoint" />
+            <mxPoint x="1160" y="440.0000244140625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-92" edge="1" parent="1" source="5QfnipIm1RK7H5KKdkK9-26" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#91A8BD;noEdgeStyle=1;dashed=1;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.49056603773584906;exitPerimeter=0;entryPerimeter=0;" target="5QfnipIm1RK7H5KKdkK9-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="815.0000244140625" as="sourcePoint" />
+            <mxPoint x="1160" y="815.0000244140625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-93" edge="1" parent="1" source="5QfnipIm1RK7H5KKdkK9-38" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#91A8BD;noEdgeStyle=1;dashed=1;exitX=1.0;exitY=0.4962962962962963;entryX=0.0;entryY=0.36666666666666664;exitPerimeter=0;entryPerimeter=0;" target="5QfnipIm1RK7H5KKdkK9-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="1067.0000244140624" as="sourcePoint" />
+            <mxPoint x="1160" y="1067.0000244140624" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-94" edge="1" parent="1" source="5QfnipIm1RK7H5KKdkK9-48" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#91A8BD;noEdgeStyle=1;dashed=1;exitX=1.0;exitY=0.5185185185185185;entryX=0.0;entryY=0.3870967741935484;exitPerimeter=0;entryPerimeter=0;" target="5QfnipIm1RK7H5KKdkK9-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="1315.0000244140624" as="sourcePoint" />
+            <mxPoint x="1160" y="1315.0000244140624" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-95" edge="1" parent="1" source="5QfnipIm1RK7H5KKdkK9-64" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#91A8BD;noEdgeStyle=1;dashed=1;exitX=1.0;exitY=0.43333333333333335;entryX=0.0;entryY=0.43478260869565216;exitPerimeter=0;entryPerimeter=0;" target="5QfnipIm1RK7H5KKdkK9-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1115" y="1670.0000244140624" as="sourcePoint" />
+            <mxPoint x="1160" y="1670.0000244140624" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-96" edge="1" parent="1" source="5QfnipIm1RK7H5KKdkK9-57" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#B95850;noEdgeStyle=1;exitX=0.0;exitY=0.5;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="5QfnipIm1RK7H5KKdkK9-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="1495.0000244140624" />
+            </Array>
+            <mxPoint x="585" y="1495.0000244140624" as="sourcePoint" />
+            <mxPoint x="530" y="1605.0000244140624" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-97" parent="1" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=15;fontColor=#B95850;fontStyle=1;spacing=0;" value="Sí" vertex="1">
+          <mxGeometry height="30" width="220" x="375" y="1535.0000244140624" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-98" edge="1" parent="1" source="5QfnipIm1RK7H5KKdkK9-57" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#38815D;noEdgeStyle=1;exitX=1.0;exitY=0.5;entryX=0.49859154929577465;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" target="5QfnipIm1RK7H5KKdkK9-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="937" y="1495.0000244140624" />
+            </Array>
+            <mxPoint x="865" y="1495.0000244140624" as="sourcePoint" />
+            <mxPoint x="937" y="1605.0000244140624" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-99" parent="1" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=15;fontColor=#38815D;fontStyle=1;spacing=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="200" x="875" y="1535.0000244140624" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-100" edge="1" parent="1" source="5QfnipIm1RK7H5KKdkK9-59" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#B95850;noEdgeStyle=1;exitX=0.0;exitY=0.5333333333333333;entryX=1.0;entryY=0.5333333333333333;exitPerimeter=0;entryPerimeter=0;" target="5QfnipIm1RK7H5KKdkK9-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="1685.0000244140624" as="sourcePoint" />
+            <mxPoint x="280" y="1685.0000244140624" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-101" parent="1" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=12;fontColor=#B95850;fontStyle=1;spacing=0;" value="Respuesta" vertex="1">
+          <mxGeometry height="26" width="82" x="282" y="1620.0000244140624" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-102" parent="1" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=Segoe UI;fontSize=12;fontColor=#B95850;fontStyle=1;spacing=0;" value="HTTP · HTML" vertex="1">
+          <mxGeometry height="26" width="82" x="287" y="1646.0000244140624" as="geometry" />
+        </mxCell>
+        <mxCell id="5QfnipIm1RK7H5KKdkK9-103" edge="1" parent="1" source="5QfnipIm1RK7H5KKdkK9-64" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#38815D;noEdgeStyle=1;exitX=0.49859154929577465;exitY=1.0;entryX=1.0;entryY=0.6363636363636364;exitPerimeter=0;entryPerimeter=0;" target="5QfnipIm1RK7H5KKdkK9-80">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="937" y="1840.0000244140624" />
+            </Array>
+            <mxPoint x="937" y="1755.0000244140624" as="sourcePoint" />
+            <mxPoint x="280" y="1840.0000244140624" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
