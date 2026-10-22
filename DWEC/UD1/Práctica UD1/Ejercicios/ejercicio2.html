@@ -13,7 +13,7 @@
         //Variables para los datos introducidos por el usuario
         let num1, num2;
         //Variables para realizar la división
-        let resto, operacion;        
+        let resto, operacion;
         //Variable boolean para manejar la condición de salida del bucle
         let esNumValido = false;
 
@@ -21,30 +21,36 @@
         do {
             //Pido el primer número100
 
-            num1 = parseInt(prompt("introduce el primer valor"));
+            num1 = parseInt(prompt("introduce el primer valor entre 100 y 1000"));
             //Valido que cumpla la condición
             if (num1 >= 100 && num1 <= 1000) {
                 //Si la cumple, pido el segundo número
-                num2 = parseInt(prompt("introduce el segundo valor"));
+                num2 = parseInt(prompt("introduce el segundo valor entre 0 y 100"));
                 //Si es válido, ambos números cumplen las condiciones asi que modifico la variable de salida a true para salir del bucle
                 if (num2 > 0 && num2 < 100) esNumValido = true;
             }
             //mientras que la variable de salida sea false, el bucle se repite
-        } while (!esNumValido)     
+        } while (!esNumValido)
 
-        
+        //Creo otro do-while para primero hacer la división y calcular el resto, y validar la condición del bucle al final
         do {
-            operacion = num1 / num2;           
-            resto = num1 % num2;            
-            document.write("División de " + parseInt(num1) + " / " + parseInt(num2)+ " = " + parseInt(operacion) + "<br>");
-            document.write("resto = " + resto+ "<br>");
-            num1 = operacion;
+            //variables para calcular el resultado de la visión y el resto. Las paso a int para evitar decimales en las comparación y evaluación del bucle
+            operacion = parseInt(num1 / num2);
+            resto = parseInt(num1 % num2);            
+            
+            /*
+            Para detener la ejecución cuando el resultado de la división de 0, creo una condición para mostrar los resultados por pantalla
+            Si el resultado de la operacion no es 0, los irá mostrando cada vuelta    
+            */        
+            if ((operacion) !== 0) {                          
+                document.write(num1 + " dividido entre " + num2 + " da " + operacion + " y el resto es " + resto + "<br>");
+                //Asigno al dividendo el resultado de la división actual, para que en la siguiente vuelta sea la cantidad que divide entre el divisor
+                num1 = operacion;
+                //Si el resultado es 0, muestro el mensaje y la condición del while parará la ejecución
+            } else document.write("No se puede dividir " +num1+ " entre " +num2+". Fin de la ejecución");
 
-        } while(parseInt(operacion) !== 0)
-                
-
+            //Repite el bucle mientras que el resultado sea 0
+        } while (operacion !== 0)
     </script>
-
 </body>
-
 </html>
